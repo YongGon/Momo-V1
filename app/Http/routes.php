@@ -24,3 +24,7 @@ Route::get('/hello', function () {
 Route::get('/test', function () {
     return "test";
 });
+
+Route::get('/yonggon', function () {
+    return "yonggon";
+});
