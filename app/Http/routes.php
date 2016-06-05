@@ -20,3 +20,7 @@ Route::get('/hello', function () {
     return "Hello Momo World !!";
 });
 
+
+Route::get('/test', function () {
+    return "test";
+});
